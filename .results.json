@@ -2,101 +2,149 @@
   "stats": {
     "suites": 4,
     "tests": 6,
-    "passes": 6,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
-    "start": "2021-10-18T19:03:01.620Z",
-    "end": "2021-10-18T19:03:02.054Z",
-    "duration": 434
+    "failures": 6,
+    "start": "2022-06-06T00:49:05.042Z",
+    "end": "2022-06-06T00:49:05.183Z",
+    "duration": 141
   },
   "tests": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "ReferenceError: companyName is not defined\n    at Context.<anonymous> (test/indexTest.js:9:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "companyName is not defined"
+      }
     },
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "Expected companyName to be a const: expected '\\n// Code your solution in this file!' to match /const companyName/",
+        "showDiff": false,
+        "actual": "\n// Code your solution in this file!",
+        "stack": "AssertionError: Expected companyName to be a const: expected '\\n// Code your solution in this file!' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:13:21)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "is declared as equal to Chelsea",
       "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "mostProfitableNeighborhood is not defined"
+      }
     },
     {
       "title": "is defined using let",
       "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected '\\n// Code your solution in this file!' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "\n// Code your solution in this file!",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected '\\n// Code your solution in this file!' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:23:21)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "is declared as equal to Susan Smith",
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "companyCeo is not defined"
+      }
     },
     {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "Expected companyCeo to be defined using let: expected '\\n// Code your solution in this file!' to match /let companyCeo/",
+        "showDiff": false,
+        "actual": "\n// Code your solution in this file!",
+        "stack": "AssertionError: Expected companyCeo to be defined using let: expected '\\n// Code your solution in this file!' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:33:21)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     }
   ],
   "pending": [],
-  "failures": [],
-  "passes": [
+  "failures": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "ReferenceError: companyName is not defined\n    at Context.<anonymous> (test/indexTest.js:9:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "companyName is not defined"
+      }
     },
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "Expected companyName to be a const: expected '\\n// Code your solution in this file!' to match /const companyName/",
+        "showDiff": false,
+        "actual": "\n// Code your solution in this file!",
+        "stack": "AssertionError: Expected companyName to be a const: expected '\\n// Code your solution in this file!' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:13:21)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "is declared as equal to Chelsea",
       "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "mostProfitableNeighborhood is not defined"
+      }
     },
     {
       "title": "is defined using let",
       "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected '\\n// Code your solution in this file!' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "\n// Code your solution in this file!",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected '\\n// Code your solution in this file!' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:23:21)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "is declared as equal to Susan Smith",
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "companyCeo is not defined"
+      }
     },
     {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "Expected companyCeo to be defined using let: expected '\\n// Code your solution in this file!' to match /let companyCeo/",
+        "showDiff": false,
+        "actual": "\n// Code your solution in this file!",
+        "stack": "AssertionError: Expected companyCeo to be defined using let: expected '\\n// Code your solution in this file!' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:33:21)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     }
-  ]
+  ],
+  "passes": []
 }
